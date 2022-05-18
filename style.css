@@ -16,7 +16,6 @@ img {
 /* HEADER STYLING */
 .container {
     width: 60rem;
-    border: 1px solid black;
     margin: 0 auto;
 }
 
@@ -57,36 +56,41 @@ nav {
 .content {
     display: flex;
     margin: 0 auto;
+    margin-top: 2rem;
     width: 100%;
-    height: 860px;
-    border: 1px solid green;
+    
 }
 
 .col-1 {
-    margin-right: 1.5rem;
-    border: 3px solid orange;
+    margin-right: 10rem;
     flex: 2;
 }
 
 .col-2 {
     border: 3px solid red;
     flex: 1;
-    /* return to add margin */
 }
 
+
+/* USER CARD STYLING */
 .user-card {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
+    border: 3px solid lightgray;
+    border-top: none;
+    border-radius: 6px;
+    margin-bottom: 2rem;
 }
 
 .user-card-banner {
     background-color: rgb(23,162,184);
     height: 5rem;
+    border-radius: 6px;
 }
 
 .name-photo {
     margin-left: 1.5rem;
+    border-top: none;
 }
 
 .name-photo img {
@@ -125,5 +129,41 @@ nav {
 .edit img {
     height: 1rem;
     margin-right: 0.5rem;
+}
+
+/* EDUCATION CARD STYLING */
+
+.education {
+    border-radius: 6px;
+    border: 3px solid lightgrey;
+    border-top: none;
+}
+
+.edu-banner {
+    background-color: rgb(87, 87, 87);
+    border-radius: 6px;
+    padding: 0.5rem 0;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.edu-banner h2 {
+    margin-left: 1.5rem;
+}
+
+.edu-content {
+    margin-left: 1.5rem;
+}
+
+.edu-content p {
+    margin-bottom: 0.5rem;
+}
+
+.edu-content span {
+    color: gray;
+}
+
+.edu-experience {
+    margin-bottom: 0.5rem;
 }
 
