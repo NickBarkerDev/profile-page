@@ -20,6 +20,7 @@ img {
 }
 
 header {
+    border-radius: 6px;
     background-color: black;
     color: white;
 }
@@ -62,12 +63,11 @@ nav {
 }
 
 .col-1 {
-    margin-right: 10rem;
+    margin-right: 5rem;
     flex: 2;
 }
 
 .col-2 {
-    border: 3px solid red;
     flex: 1;
 }
 
@@ -96,6 +96,7 @@ nav {
 .name-photo img {
     height: 6rem;
     margin-top: -3rem;
+    border-radius: 50%;
 }
 
 .name-photo .name {
@@ -167,3 +168,85 @@ nav {
     margin-bottom: 0.5rem;
 }
 
+
+/* CONNECTION REQUESTS CARD STYLING */
+
+.connection-requests {
+    border-radius: 8px;
+    border: 3px solid lightgrey;
+    border-top: none;
+    margin-bottom: 1.5rem;
+}
+
+.connect-banner {
+    background-color:rgb(87, 87, 87);
+    color:white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.user-reqs {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.image-name {
+    display: flex;
+    align-items: center;
+}
+
+.image-name > img {
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.image-name > p {
+    font-size: 1.1rem;
+}
+
+.accept-reject {
+    display: flex;
+    align-items: center;
+}
+
+.accept-reject > img {
+    height: 2rem;
+}
+
+.accept-reject > img:last-child {
+    margin-left: 0.25rem;
+}
+
+/* YOUR CONNECTIONS CARD STYLING */
+
+.your-connections {
+    border: 3px solid lightgrey;
+    border-top: none;
+    border-radius: 6px;
+}
+
+.your-connections-banner {
+    background-color:rgb(87, 87, 87);
+    color:white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* VIEW MORE LINK STYLING */
+
+.view-more {
+    border: 3px solid lightgrey;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    border-top: none;
+    border-radius: 6px;
+}
